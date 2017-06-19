@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::any('/wechat', 'EasyWechatController@handle');
+Route::any('/menus', 'EasyWechatController@menusearch');
 //Route::any('/handle', 'EasyWechatController@handle');
 Route::get('/about', 'MeController@about');
 
