@@ -29,6 +29,7 @@ class EasyWechatController extends Controller
 
     public function verify()
     {
+
         $server = $this->app->server;
         $server->setMessageHandler(function ($message) {
             switch ($message->MsgType) {
@@ -61,7 +62,7 @@ class EasyWechatController extends Controller
         });
 
 
-        $response = $this->app->server->serve();
+        $response = $server->serve();
         // 将响应输出
         return $response; // Laravel 里请使用：return $response;
     }
