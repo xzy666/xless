@@ -33,7 +33,7 @@ class EasyWechatController extends Controller
         $server->setMessageHandler(function ($message) {
             switch ($message->MsgType) {
                 case 'event':
-                    return '收到事件消息';
+                    return '收到事件消111息';
                     break;
                 case 'text':
                     return '收到文字消息';
