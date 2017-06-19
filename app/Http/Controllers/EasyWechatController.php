@@ -28,7 +28,12 @@ class EasyWechatController extends Controller
 
     public function handle()
     {
-        return  $this->app->server->serve();
+        $server=$this->app->server;
+
+        $server->setMessageHandler(function ($message) {
+            return "您好！欢迎关注我!";
+        });
+        return  $server->serve();
     }
 
 
