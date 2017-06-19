@@ -63,7 +63,7 @@ class EasyWechatController extends Controller
         return  $server->serve();
     }
 
-    public function memusearch()
+    public function menusearch()
     {
 
 
