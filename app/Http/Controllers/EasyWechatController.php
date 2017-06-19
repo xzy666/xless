@@ -28,10 +28,7 @@ class EasyWechatController extends Controller
 
     public function handle()
     {
-        $response = $this->app->server->serve();
-
-        return $response;
-
+        return  $this->app->server->serve();
     }
 
 
