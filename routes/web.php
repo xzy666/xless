@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::any('/wechat', 'EasyWechatController@verify');
-Route::any('/handle', 'EasyWechatController@handle');
+Route::any('/wechat', 'EasyWechatController@handle');
+//Route::any('/handle', 'EasyWechatController@handle');
 Route::get('/about', 'MeController@about');
 
 Route::get('/donate', function () {
