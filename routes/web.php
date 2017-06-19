@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/wechat', 'EasyWechatController@verify');
+Route::any('/wechat', 'EasyWechatController@verify');
 Route::get('/about', 'MeController@about');
 
 Route::get('/donate', function () {

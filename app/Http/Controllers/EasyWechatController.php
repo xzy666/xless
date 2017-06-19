@@ -10,7 +10,7 @@ class EasyWechatController extends Controller
     public function verify()
     {
         $options = [
-            'debug'  => true,
+            'debug'  => false,
             'app_id' => env('WECHAT_APP_ID'),
             'secret' => env('WECHAT_APP_SECRET'),
             'token'  => env('WECHAT_TOKEN'),
@@ -19,7 +19,7 @@ class EasyWechatController extends Controller
                 'level' => 'debug',
                 'file'  => '/tmp/easywechat.log', // XXX: 绝对路径！！！！
             ],
-            //...
+
         ];
         $app = new Application($options);
         $response = $app->server->serve();
