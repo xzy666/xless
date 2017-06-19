@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+//微信相关路由
 Route::any('/wechat', 'EasyWechatController@handle');
 Route::any('/menus', 'EasyWechatController@menusearch');
 //Route::any('/handle', 'EasyWechatController@handle');
