@@ -16,7 +16,9 @@ class EasyWechatController extends Controller
             'app_id' => env('WECHAT_APP_ID'),
             'secret' => env('WECHAT_APP_SECRET'),
             'token'  => env('WECHAT_TOKEN'),
-            // 'aes_key' => null, // 可选
+
+            'aes_key' =>'rZUoCt1BbbYbzGhfgnKCyvvGD9ADGNQ0hWxytp0XZ7I',
+
             'log' => [
                 'level' => 'debug',
                 'file'  => '/tmp/easywechat.log', // XXX: 绝对路径！！！！
