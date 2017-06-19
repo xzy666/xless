@@ -68,6 +68,7 @@ class EasyWechatController extends Controller
 
 
         $menu = $this->app->menu;
+        $menu=$menu->all();
         dd($menu);
     }
 
