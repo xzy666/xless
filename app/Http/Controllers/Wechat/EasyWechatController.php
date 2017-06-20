@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Wechat;
 
 use EasyWeChat\Message\Text;
 use Illuminate\Http\Request;
 use EasyWeChat\Foundation\Application;
 
-class EasyWechatController extends Controller
+class EasyWechatController extends BaseController
 {
     protected $app;
     

@@ -16,10 +16,7 @@ Route::get('/', function () {
 });
 
 
-//微信相关路由
-Route::any('/wechat', 'EasyWechatController@handle');
-Route::any('/menus', 'EasyWechatController@menusearch');
-Route::any('/wechatlist', 'EasyWechatController@getCustomerService');
+
 //Route::any('/handle', 'EasyWechatController@handle');
 Route::get('/about', 'MeController@about');
 
@@ -28,8 +25,7 @@ Route::get('/donate', function () {
 });
 
 
-//微信相关的注册
-Route::get('/menu','WechatControllers\MenuController@test');
+
 
 
 
@@ -78,3 +74,13 @@ Route::group(['namespace'=>'Stage','middleware'=>'web'],function () {
 
 });
 
+
+//微信相关路由
+Route::group(['namespace'=>'Wechat','middleware'=>'web'],function () {
+
+    Route::any('/wechat', 'EasyWechatController@wechat');
+    Route::any('/menus', 'EasyWechatController@menus');
+    Route::any('/wechat/customerlist', 'EasyWechatController@getCustomerService');
+    Route::get('/wechat/index', 'CommonController@index');
+
+});
