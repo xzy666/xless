@@ -81,6 +81,7 @@ Route::group(['namespace'=>'Wechat','middleware'=>'web'],function () {
     Route::any('/wechat', 'EasyWechatController@wechat');
     Route::any('/menus', 'EasyWechatController@menus');
     Route::any('/wechat/customerlist', 'EasyWechatController@getCustomerService');
+    Route::get('/wechat/index', 'CommonController@index');
     Route::get('/wechat/default', 'CommonController@defaultPage');
     Route::get('/wechat/identify', 'CommonController@identify');
     Route::get('/wechat/message', 'CommonController@message');
