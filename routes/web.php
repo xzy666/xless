@@ -19,6 +19,7 @@ Route::get('/', function () {
 //微信相关路由
 Route::any('/wechat', 'EasyWechatController@handle');
 Route::any('/menus', 'EasyWechatController@menusearch');
+Route::any('/wechatlist', 'EasyWechatController@getCustomerService');
 //Route::any('/handle', 'EasyWechatController@handle');
 Route::get('/about', 'MeController@about');
 

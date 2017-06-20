@@ -36,7 +36,7 @@ class EasyWechatController extends Controller
         $server->setMessageHandler(function ($message) {
             switch ($message->MsgType) {
                 case 'event':
-                    $text = new Text(['content' => '您好!!!!']);
+                    $text = new Text(['content' => '用户进入聊天界面']);
                     return $text;
                     break;
                 case 'text':
@@ -66,12 +66,28 @@ class EasyWechatController extends Controller
         });
         return  $server->serve();
     }
-
+    //获取菜单
     public function menusearch()
     {
         $menu = $this->app->menu;
         $menu=$menu->all();
         dd($menu);
+    }
+
+
+    //获取客服
+
+    public function getCustomerService()
+    {
+        $staff=$this->app->staff;
+
+        //获取所有客服账号列表
+        dd($staff->lists());
+        //获取在线的客服账号
+        //$staff->onlines();
+        //添加客服账号
+//        $staff->create('foo@test', '客服1');
+
     }
 
 
