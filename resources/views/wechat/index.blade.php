@@ -126,12 +126,12 @@
     
     <ul class="nav navbar-nav pull-right">
        <li class="li-border">
-          <a href="#"> class="mystyle-color">
+          <a href="#" class="mystyle-color">
             <span class="glyphicon glyphicon-bell"></span>
             <span class="topbar-num">0</span>
           </a>
       </li>
-       <li class="li-border dropdown"><a href="#"> class="mystyle-color" data-toggle="dropdown">
+       <li class="li-border dropdown"><a href="#" class="mystyle-color" data-toggle="dropdown">
       <span class="glyphicon glyphicon-search"></span> 搜索</a>
          <div class="dropdown-menu search-dropdown">
             <div class="input-group">
@@ -142,7 +142,7 @@
             </div>
          </div>
       </li>
-      <li class="dropdown li-border"><a href="#"> class="dropdown-toggle mystyle-color" data-toggle="dropdown">帮助与文档<span class="caret"></span></a>
+      <li class="dropdown li-border"><a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">帮助与文档<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">帮助与文档</a></li>
           <li class="divider"></li>
@@ -151,12 +151,12 @@
           <li><a href="#">博客</a></li>
         </ul>
       </li>
-      <li class="dropdown li-border"><a href="#"> class="dropdown-toggle mystyle-color" data-toggle="dropdown">00000000@qq.com<span class="caret"></span></a>
+      <li class="dropdown li-border"><a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">00000000@qq.com<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">退出</a></li>
         </ul>
       </li>
-      <li class="dropdown"><a href="#"> class="dropdown-toggle mystyle-color" data-toggle="dropdown">换肤<span class="caret"></span></a>
+      <li class="dropdown"><a href="#"class="dropdown-toggle mystyle-color" data-toggle="dropdown">换肤<span class="caret"></span></a>
         <ul class="dropdown-menu changecolor">
           <li id="blue"><a href="#">蓝色</a></li>
           <li class="divider"></li>
