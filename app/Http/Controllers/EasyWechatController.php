@@ -81,6 +81,8 @@ class EasyWechatController extends Controller
     {
         $staff=$this->app->staff;
 
+        dd($staff->create('xuzhy_@xuzhy_', '客服1'));
+
         //获取所有客服账号列表
         dd($staff->lists());
         //获取在线的客服账号
