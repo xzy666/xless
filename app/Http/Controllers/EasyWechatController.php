@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use EasyWeChat\Message\Text;
 use Illuminate\Http\Request;
 use EasyWeChat\Foundation\Application;
 
@@ -35,7 +36,8 @@ class EasyWechatController extends Controller
         $server->setMessageHandler(function ($message) {
             switch ($message->MsgType) {
                 case 'event':
-                    return '收到事件消息';
+                    $text = new Text(['content' => '您好!!!!']);
+                    return $text;
                     break;
                 case 'text':
                     return '收到文字消息';
