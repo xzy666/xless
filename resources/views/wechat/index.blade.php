@@ -300,7 +300,7 @@
                    <div class="panel panel-default">
                       <div class="panel-heading">
                        我的事务<div class="caret"></div>
-                       <a href="#"> class="pull-right"><span class="glyphicon glyphicon-refresh"></span></a>
+                       <a href="#" class="pull-right"><span class="glyphicon glyphicon-refresh"></span></a>
                       </div>     
                       <div class="panel-body">
                            <div class="w15 pull-left">
@@ -361,7 +361,7 @@
                       </div>
                       
                       <div class="panel-body text-center">
-                          <a href="#"> style="color:#5297d6;">查看全部</a>
+                          <a href="#" style="color:#5297d6;">查看全部</a>
                       </div>
                       
                     </div>
@@ -371,7 +371,7 @@
                      <div class="panel panel-default">
                       <div class="panel-heading">
                        我的事务统计
-                       <a href="#"> class="pull-right"><span class="glyphicon glyphicon-refresh"></span></a>
+                       <a href="#" class="pull-right"><span class="glyphicon glyphicon-refresh"></span></a>
                       </div>     
                       <div class="panel-body">
                           
