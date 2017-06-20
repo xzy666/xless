@@ -4,15 +4,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 <title>用户中心</title>
-<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" title="" rel="stylesheet" />
-<link title="" href="css/style.css" rel="stylesheet" type="text/css"  />
-<link title="blue" href="css/dermadefault.css" rel="stylesheet" type="text/css"/>
-<link title="green" href="css/dermagreen.css" rel="stylesheet" type="text/css" disabled="disabled"/>
-<link title="orange" href="css/dermaorange.css" rel="stylesheet" type="text/css" disabled="disabled"/>
-<link href="css/templatecss.css" rel="stylesheet" title="" type="text/css" />
-<script src="script/jquery-1.11.1.min.js" type="text/javascript"></script>
-<script src="script/jquery.cookie.js" type="text/javascript"></script>
-<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="{{asset('wechat/bootstrap-3.3.5-dist/css/bootstrap.min.css')}}" title="" rel="stylesheet" />
+<link title="" href="{{asset('wechat/css/style.css')}}" rel="stylesheet" type="text/css')}}"  />
+<link title="blue" href="{{asset('wechat/css/dermadefault.css')}}" rel="stylesheet" type="text/css')}}"/>
+<link title="green" href="{{asset('wechat/css/dermagreen.css')}}" rel="stylesheet" type="text/css')}}" disabled="disabled"/>
+<link title="orange" href="{{asset('wechat/css/dermaorange.css')}}" rel="stylesheet" type="text/css')}}" disabled="disabled"/>
+<link href="{{asset('wechat/css/templatecss.css')}}" rel="stylesheet" title="" type="text/css')}}" />
+<script src="{{asset('wechat/script/jquery-1.11.1.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('wechat/script/jquery.cookie.js')}}" type="text/javascript"></script>
+<script src="{{asset('wechat/bootstrap-3.3.5-dist/js/bootstrap.min.js')}}" type="text/javascript"></script>
 </head>
 
 <body>
@@ -26,25 +26,25 @@
     <a class="navbar-brand mystyle-brand"><span class="glyphicon glyphicon-home"></span></a> </div>
   <div class="collapse navbar-collapse">
     <ul class="nav navbar-nav">
-      <li class="li-border"><a class="mystyle-color" href="#">管理控制台</a></li>
-      <li class="dropdown li-border"><a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">产品与服务<span class="caret"></span></a>
+      <li class="li-border"><a class="mystyle-color" href="{{asset('wechat/#">管理控制台</a></li>
+      <li class="dropdown li-border"><a href="{{asset('wechat/#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">产品与服务<span class="caret"></span></a>
         <!----下拉框选项---->
          <div class="dropdown-menu topbar-nav-list">
              <div class="topbar-nav-col">
                <div class="topbar-nav-item">
                <p class="topbar-nav-item-title">弹性计算</p>
                <ul>
-                 <li><a href="#">
+                 <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-road"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
                  </li>
-                  <li><a href="#">
+                  <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-picture"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
                  </li>
-                  <li><a href="#">
+                  <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-gift"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
@@ -55,17 +55,17 @@
                <div class="">
                <p class="topbar-nav-item-title">弹性计算</p>
                <ul>
-                 <li><a href="#">
+                 <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-road"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
                  </li>
-                  <li><a href="#">
+                  <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-picture"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
                  </li>
-                  <li><a href="#">
+                  <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-gift"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
@@ -79,17 +79,17 @@
                <div class="topbar-nav-item">
                <p class="topbar-nav-item-title">弹性计算</p>
                <ul>
-                 <li><a href="#">
+                 <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-road"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
                  </li>
-                  <li><a href="#">
+                  <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-picture"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
                  </li>
-                  <li><a href="#">
+                  <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-gift"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
@@ -100,17 +100,17 @@
                <div class="">
                <p class="topbar-nav-item-title">弹性计算</p>
                <ul>
-                 <li><a href="#">
+                 <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-road"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
                  </li>
-                  <li><a href="#">
+                  <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-picture"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
                  </li>
-                  <li><a href="#">
+                  <li><a href="{{asset('wechat/#">
                      <span class="glyphicon glyphicon-gift"></span> 
                      <span class="">云服务器 ECS</span> 
                  </a>
@@ -126,12 +126,12 @@
     
     <ul class="nav navbar-nav pull-right">
        <li class="li-border">
-          <a href="#" class="mystyle-color">
+          <a href="{{asset('wechat/#" class="mystyle-color">
             <span class="glyphicon glyphicon-bell"></span>
             <span class="topbar-num">0</span>
           </a>
       </li>
-       <li class="li-border dropdown"><a href="#" class="mystyle-color" data-toggle="dropdown">
+       <li class="li-border dropdown"><a href="{{asset('wechat/#" class="mystyle-color" data-toggle="dropdown">
       <span class="glyphicon glyphicon-search"></span> 搜索</a>
          <div class="dropdown-menu search-dropdown">
             <div class="input-group">
@@ -142,27 +142,27 @@
             </div>
          </div>
       </li>
-      <li class="dropdown li-border"><a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">帮助与文档<span class="caret"></span></a>
+      <li class="dropdown li-border"><a href="{{asset('wechat/#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">帮助与文档<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">帮助与文档</a></li>
+          <li><a href="{{asset('wechat/#">帮助与文档</a></li>
           <li class="divider"></li>
-          <li><a href="#">论坛</a></li>
+          <li><a href="{{asset('wechat/#">论坛</a></li>
           <li class="divider"></li>
-          <li><a href="#">博客</a></li>
+          <li><a href="{{asset('wechat/#">博客</a></li>
         </ul>
       </li>
-      <li class="dropdown li-border"><a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">00000000@qq.com<span class="caret"></span></a>
+      <li class="dropdown li-border"><a href="{{asset('wechat/#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">00000000@qq.com<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">退出</a></li>
+          <li><a href="{{asset('wechat/#">退出</a></li>
         </ul>
       </li>
-      <li class="dropdown"><a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">换肤<span class="caret"></span></a>
+      <li class="dropdown"><a href="{{asset('wechat/#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">换肤<span class="caret"></span></a>
         <ul class="dropdown-menu changecolor">
-          <li id="blue"><a href="#">蓝色</a></li>
+          <li id="blue"><a href="{{asset('wechat/#">蓝色</a></li>
           <li class="divider"></li>
-          <li id="green"><a href="#">绿色</a></li>
+          <li id="green"><a href="{{asset('wechat/#">绿色</a></li>
           <li class="divider"></li>
-          <li id="orange"><a href="#">橙色</a></li>
+          <li id="orange"><a href="{{asset('wechat/#">橙色</a></li>
         </ul>
       </li>
     </ul>
@@ -177,34 +177,34 @@
         </div>
         <ul class="navContent" style="display:block">
           <li class="active">
-            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />账号管理</div>
-            <a href="userInfo.html"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">账号管理</span></a> </li>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png" />账号管理</div>
+            <a href="{{asset('wechat/userInfo.html"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">账号管理</span></a> </li>
           <li>
-            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />消息中心</div>
-            <a href="message.blade.php"><span class="sublist-icon glyphicon glyphicon-envelope"></span><span class="sub-title">消息中心</span></a> </li>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png" />消息中心</div>
+            <a href="{{asset('wechat/message.blade.php"><span class="sublist-icon glyphicon glyphicon-envelope"></span><span class="sub-title">消息中心</span></a> </li>
           <li>
-            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />短信</div>
-            <a href="smsInfo.html"><span class="sublist-icon glyphicon glyphicon-bullhorn"></span><span class="sub-title">短信</span></a></li>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png" />短信</div>
+            <a href="{{asset('wechat/smsInfo.html"><span class="sublist-icon glyphicon glyphicon-bullhorn"></span><span class="sub-title">短信</span></a></li>
           <li>
-            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />实名认证</div>
-            <a href="identify.blade.php["><span class="sublist-icon glyphicon glyphicon-credit-card"></span><span class="sub-title">实名认证</span></a></li>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png" />实名认证</div>
+            <a href="{{asset('wechat/identify.blade.php["><span class="sublist-icon glyphicon glyphicon-credit-card"></span><span class="sub-title">实名认证</span></a></li>
         </ul>
       </div>
       <div class="sBox">
         <div class="subNav sublist-up"><span class="title-icon glyphicon glyphicon-chevron-up"></span><span class="sublist-title">关于我们</span></div>
         <ul class="navContent" style="display:none">
           <li>
-            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />添加新闻</div>
-            <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">添加新闻</span></a></li>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png" />添加新闻</div>
+            <a href="{{asset('wechat/#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">添加新闻</span></a></li>
           <li>
-            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />添加新闻</div>
-            <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">新闻管理</span></a></li>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png" />添加新闻</div>
+            <a href="{{asset('wechat/#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">新闻管理</span></a></li>
           <li>
-            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />添加新闻</div>
-            <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">添加新闻</span></a></li>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png" />添加新闻</div>
+            <a href="{{asset('wechat/#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">添加新闻</span></a></li>
           <li>
-            <div class="showtitle" style="width:100px;"><img src="img/leftimg.png" />新闻管理</div>
-            <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">新闻管理</span></a></li>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png" />新闻管理</div>
+            <a href="{{asset('wechat/#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">新闻管理</span></a></li>
         </ul>
       </div>
     </div>
@@ -217,7 +217,7 @@
             <div class="info-title">
               <div class="pull-left">
                 <h4><strong>Administrator，</strong></h4>
-                <p>欢迎登录管理系统！ <a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+                <p>欢迎登录管理系统！ <a href="{{asset('wechat/http://www.mycodes.net/" target="_blank">源码之家</a></p>
               </div>
               <div class="time-title pull-right">
                   <div class="year-month pull-left">
@@ -300,11 +300,11 @@
                    <div class="panel panel-default">
                       <div class="panel-heading">
                        我的事务<div class="caret"></div>
-                       <a href="#" class="pull-right"><span class="glyphicon glyphicon-refresh"></span></a>
+                       <a href="{{asset('wechat/#" class="pull-right"><span class="glyphicon glyphicon-refresh"></span></a>
                       </div>     
                       <div class="panel-body">
                            <div class="w15 pull-left">
-                             <img src="img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
+                             <img src="{{asset('wechat/img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
                              安妮
                            </div>
                            <div class="w55 pull-left">系统需要升级</div>
@@ -314,7 +314,7 @@
                       
                       <div class="panel-body">
                            <div class="w15 pull-left">
-                             <img src="img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
+                             <img src="{{asset('wechat/img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
                              安妮
                            </div>
                            <div class="w55 pull-left">系统需要升级</div>
@@ -324,7 +324,7 @@
                       
                       <div class="panel-body">
                            <div class="w15 pull-left">
-                             <img src="img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
+                             <img src="{{asset('wechat/img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
                              安妮
                            </div>
                            <div class="w55 pull-left">系统需要升级</div>
@@ -334,7 +334,7 @@
                       
                       <div class="panel-body">
                            <div class="w15 pull-left">
-                             <img src="img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
+                             <img src="{{asset('wechat/img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
                              安妮
                            </div>
                            <div class="w55 pull-left">系统需要升级</div>
@@ -343,7 +343,7 @@
                       </div>
                       <div class="panel-body">
                            <div class="w15 pull-left">
-                             <img src="img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
+                             <img src="{{asset('wechat/img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
                              安妮
                            </div>
                            <div class="w55 pull-left">系统需要升级</div>
@@ -352,7 +352,7 @@
                       </div>
                       <div class="panel-body">
                            <div class="w15 pull-left">
-                             <img src="img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
+                             <img src="{{asset('wechat/img/noavatar_middle.gif" width="25" height="25" alt="图片" class="img-circle">
                              安妮
                            </div>
                            <div class="w55 pull-left">系统需要升级</div>
@@ -361,7 +361,7 @@
                       </div>
                       
                       <div class="panel-body text-center">
-                          <a href="#" style="color:#5297d6;">查看全部</a>
+                          <a href="{{asset('wechat/#" style="color:#5297d6;">查看全部</a>
                       </div>
                       
                     </div>
@@ -371,7 +371,7 @@
                      <div class="panel panel-default">
                       <div class="panel-heading">
                        我的事务统计
-                       <a href="#" class="pull-right"><span class="glyphicon glyphicon-refresh"></span></a>
+                       <a href="{{asset('wechat/#" class="pull-right"><span class="glyphicon glyphicon-refresh"></span></a>
                       </div>     
                       <div class="panel-body">
                           
