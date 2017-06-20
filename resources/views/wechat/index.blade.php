@@ -26,7 +26,7 @@
     <a class="navbar-brand mystyle-brand"><span class="glyphicon glyphicon-home"></span></a> </div>
   <div class="collapse navbar-collapse">
     <ul class="nav navbar-nav">
-      <li class="li-border"><a class="mystyle-color" href="{{asset('wechat/#">管理控制台</a></li>
+      <li class="li-border"><a class="mystyle-color" href="#">管理控制台</a></li>
       <li class="dropdown li-border"><a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">产品与服务<span class="caret"></span></a>
         <!----下拉框选项---->
          <div class="dropdown-menu topbar-nav-list">
@@ -187,23 +187,23 @@
             <a href="smsInfo.html"><span class="sublist-icon glyphicon glyphicon-bullhorn"></span><span class="sub-title">短信</span></a></li>
           <li>
             <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png')}}" />实名认证</div>
-            <a href="identify.blade.php["><span class="sublist-icon glyphicon glyphicon-credit-card"></span><span class="sub-title">实名认证</span></a></li>
+            <a href="identify.blade.php"><span class="sublist-icon glyphicon glyphicon-credit-card"></span><span class="sub-title">实名认证</span></a></li>
         </ul>
       </div>
       <div class="sBox">
         <div class="subNav sublist-up"><span class="title-icon glyphicon glyphicon-chevron-up"></span><span class="sublist-title">关于我们</span></div>
         <ul class="navContent" style="display:none">
           <li>
-            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png')}}" />添加新闻</div>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png')}}" alt=""  />添加新闻</div>
             <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">添加新闻</span></a></li>
           <li>
-            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png')}}" />添加新闻</div>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png')}}" alt=""  />添加新闻</div>
             <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">新闻管理</span></a></li>
           <li>
-            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png')}}" />添加新闻</div>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png')}}"  alt="" />添加新闻</div>
             <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">添加新闻</span></a></li>
           <li>
-            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png')}}" />新闻管理</div>
+            <div class="showtitle" style="width:100px;"><img src="{{asset('wechat/img/leftimg.png')}}" alt="" />新闻管理</div>
             <a href="#"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">新闻管理</span></a></li>
         </ul>
       </div>
@@ -217,7 +217,7 @@
             <div class="info-title">
               <div class="pull-left">
                 <h4><strong>Administrator，</strong></h4>
-                <p>欢迎登录管理系统！ <a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+                <p>欢迎登录管理系统！ </p>
               </div>
               <div class="time-title pull-right">
                   <div class="year-month pull-left">
@@ -304,7 +304,7 @@
                       </div>     
                       <div class="panel-body">
                            <div class="w15 pull-left">
-                             <img src="{{asset('wechat/img/noavatar_middle.gif')}}')}}" width="25" height="25" alt="图片" class="img-circle">
+                             <img src="{{asset('wechat/img/noavatar_middle.gif')}}" width="25" height="25" alt="图片" class="img-circle">
                              安妮
                            </div>
                            <div class="w55 pull-left">系统需要升级</div>
@@ -314,7 +314,7 @@
                       
                       <div class="panel-body">
                            <div class="w15 pull-left">
-                             <img src="{{asset('wechat/img/noavatar_middle.gif')}}')}}" width="25" height="25" alt="图片" class="img-circle">
+                             <img src="{{asset('wechat/img/noavatar_middle.gif')}}" width="25" height="25" alt="图片" class="img-circle">
                              安妮
                            </div>
                            <div class="w55 pull-left">系统需要升级</div>
@@ -384,6 +384,7 @@
             
        </div>			
 	 </div>
+  </div>
   </div>
 
 <script type="text/javascript">
